@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-访问 `http://localhost:3000`。
+访问 `http://localhost:3000/pi-harness-website/`。
 
 使用 pnpm 也可以：
 
@@ -78,26 +78,24 @@ npm run assets:sync
 
 官网默认中文，导航栏可切换英文，用户选择保存到浏览器的本地存储。
 
-## 6. 部署
+## 6. GitHub Pages 部署
 
-先执行：
+站点地址：<https://wangmiaozero.github.io/pi-harness-website/>
+
+`dist/` 已纳入版本控制，Vite 的 `base` 已设为 `/pi-harness-website/`，图片和图标会使用对应的项目子路径。
+
+仓库的 **Settings → Pages → Build and deployment → Source** 使用 **GitHub Actions**。`.github/workflows/pages.yml` 会在 `main` 分支更新时直接发布已提交的 `dist/`，也支持手动运行。
+
+修改页面或素材后，先重新构建，再将源码与 `dist/` 一起提交并推送：
 
 ```bash
-npm install
-npm run assets:sync
 npm run build
+git add .
+git commit -m "Update website"
+git push
 ```
 
-将生成的 `dist/` 目录部署到 Vercel、Netlify、Cloudflare Pages、Nginx 或 GitHub Pages。若部署在 GitHub Pages 的子路径，修改 `vite.config.ts` 里的 `base`（如 `/pi-harness-website/`）；同时修改 `index.html` 的图标路径，以匹配子路径；本地图片路径会自动跟随 Vite 的 `base`。部署在自定义域名根目录则无需修改。
-
-Vercel / Cloudflare Pages / Netlify 常用配置：
-
-- Build command: `npm run build`
-- Output directory: `dist`
-- Install command: `npm install`
-- Node: 22+
-
-如要在云端构建时重新优化素材，可把 Build command 改为 `npm run assets:sync && npm run build`；原图完整时无需访问 GitHub Raw。
+更新原图后，可先运行 `npm run assets:sync` 重新生成 WebP，再构建页面。部署其他域名的根目录时，将 `vite.config.ts` 的 `base` 改为 `/`，并更新 `index.html` 的社交封面地址后重新构建。
 
 ## 7. 运行限制和说明
 
