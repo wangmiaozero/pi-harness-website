@@ -1,6 +1,6 @@
 # pi-harness-website
 
-以 **Vue 3 + TypeScript + Vite** 编写的 Pi-Harness 单页产品官网。暗色科技视觉、桌面与移动端适配、中英文切换、真实截图切换、主题图库、平台下载和开发者入口。
+以 **Vue 3 + TypeScript + Vite** 编写的 Pi-Harness 单页产品官网。暗色科技视觉、桌面与移动端适配、8 种语言切换、真实截图切换、主题图库、平台下载和开发者入口。
 
 **项目仓库：** <https://github.com/wangmiaozero/pi-harness>
 
@@ -8,7 +8,7 @@
 
 ## 1. 直接运行
 
-准备 Node.js 22+，推荐使用 pnpm 9+。
+准备 Node.js 22.18+；项目固定使用 pnpm 12.9.1（见 `packageManager`）。
 
 ```bash
 cd pi-harness-website
@@ -76,7 +76,11 @@ npm run assets:sync
 - **网页标题、SEO**：`index.html`
 - **站点社交封面、图标**：`public/og-cover.svg`、`public/favicon.svg`
 
-官网默认中文，导航栏可切换英文，用户选择保存到浏览器的本地存储。
+官网与 Pi-Harness 桌面端使用相同的 8 种语言：English、简体中文、繁體中文、日本語、한국어、Русский、Français、Deutsch。
+
+首次访问默认跟随浏览器语言，也可在导航栏选择固定语言或“跟随系统”。语言选择保存到本地；旧版 `zh` / `en` 偏好会自动兼容，浏览器限制本地存储时仍可正常切换。页面正文、截图说明、FAQ、无障碍标签及页面标题/描述会随语言切换。
+
+翻译文件位于 `src/i18n/locales/`，8 种语言使用相同词条。可执行 `pnpm test` 检查翻译完整性、语言识别和旧偏好迁移。
 
 ## 6. GitHub Pages 部署
 
@@ -84,9 +88,11 @@ npm run assets:sync
 
 `dist/` 已纳入版本控制，Vite 的 `base` 已设为 `/pi-harness-website/`，图片和图标会使用对应的项目子路径。
 
-仓库的 **Settings → Pages → Build and deployment → Source** 使用 **GitHub Actions**。`.github/workflows/pages.yml` 会在 `main` 分支更新时直接发布已提交的 `dist/`，也支持手动运行。
+仓库的 **Settings → Pages → Build and deployment → Source** 使用 **GitHub Actions**。`.github/workflows/pages.yml` 会在推送 `main` 后自动安装锁定依赖、运行多语言测试与 TypeScript 检查、构建网站，再部署新生成的 `dist/`。无需手动在 Actions 中运行，也不依赖仓库内的 `dist/` 是否已更新。Pull Request 会自动运行检查和构建，但不会部署；也支持手动触发。
 
-修改页面或素材后，先重新构建，再将源码与 `dist/` 一起提交并推送：
+构建任务只具有源码读取权限；部署任务仅在检查和构建成功后运行。可在 [Actions](https://github.com/wangmiaozero/pi-harness-website/actions) 查看执行结果。
+
+修改页面或素材后，提交并推送源码即可触发 CI/CD。`dist/` 继续保留在仓库中，若要同步本地构建产物，可执行：
 
 ```bash
 npm run build

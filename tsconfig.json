@@ -29,6 +29,7 @@
     "jsx": "preserve",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "resolveJsonModule": true
   }
 }
