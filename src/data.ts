@@ -16,6 +16,10 @@ export const screenshots = [
   { key: 'architecture', category: 'screenshots.architecture.label', file: 'docs/功能界面/经典主题/项目架构-1.png', local: 'architecture.webp', label: '04', title: 'screenshots.architecture.title', description: 'screenshots.architecture.description' },
   { key: 'models', category: 'screenshots.models.label', file: 'docs/功能界面/经典主题/Provider与模型-1.png', local: 'models.webp', label: '05', title: 'screenshots.models.title', description: 'screenshots.models.description' },
   { key: 'capabilities', category: 'screenshots.capabilities.label', file: 'docs/功能界面/经典主题/能力中心-1.png', local: 'capabilities.webp', label: '06', title: 'screenshots.capabilities.title', description: 'screenshots.capabilities.description' },
+  { key: 'voice', category: 'screenshots.voice.label', file: 'docs/功能界面/经典主题/实时语音.png', local: 'voice.webp', label: '07', title: 'screenshots.voice.title', description: 'screenshots.voice.description' },
+  { key: 'mcp', category: 'screenshots.mcp.label', file: 'docs/功能界面/经典主题/MCP市场.png', local: 'mcp.webp', label: '08', title: 'screenshots.mcp.title', description: 'screenshots.mcp.description' },
+  { key: 'subagents', category: 'screenshots.subagents.label', file: 'docs/功能界面/经典主题/子智能体.png', local: 'subagents.webp', label: '09', title: 'screenshots.subagents.title', description: 'screenshots.subagents.description' },
+  { key: 'remoteHosts', category: 'screenshots.remoteHosts.label', file: 'docs/功能界面/经典主题/远程主机.png', local: 'remote-hosts.webp', label: '10', title: 'screenshots.remoteHosts.title', description: 'screenshots.remoteHosts.description' },
 ] as const satisfies readonly { key: string; file: string; local: string; title: MessageKey; description: MessageKey; label: string; category: MessageKey }[]
 
 export const themes = [
