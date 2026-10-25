@@ -35,7 +35,7 @@ export function fallbackPicture(item: { file: string }) {
   return `${RAW}${item.file.split('/').map(encodeURIComponent).join('/')}`
 }
 
-export type GalleryCategory = 'classic' | 'ming' | 'themes' | 'community'
+export type GalleryCategory = 'classic' | 'ming' | 'standard' | 'themes' | 'community'
 export interface GalleryItem { category: GalleryCategory; file: string; local: string; title: MessageKey }
 
 // Every image from the project's docs/ tree, grouped by upstream category.
@@ -71,6 +71,19 @@ export const gallery: GalleryItem[] = [
   { category: 'ming', file: 'docs/功能界面/大明/项目架构.png', local: '功能界面--大明--项目架构.webp', title: 'gallery.mingArchitecture' },
   { category: 'ming', file: 'docs/功能界面/大明/通用设置.png', local: '功能界面--大明--通用设置.webp', title: 'gallery.mingSettings' },
   { category: 'ming', file: 'docs/功能界面/大明/主题皮肤库.png', local: '功能界面--大明--主题皮肤库.webp', title: 'gallery.mingSkinGallery' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/dark.png', local: '主题展示--经典主题--dark.webp', title: 'gallery.themeDark' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/soft-dark.png', local: '主题展示--经典主题--soft-dark.webp', title: 'gallery.themeSoftDark' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/light.png', local: '主题展示--经典主题--light.webp', title: 'gallery.themeLight' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/soft-light.png', local: '主题展示--经典主题--soft-light.webp', title: 'gallery.themeSoftLight' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/pink.png', local: '主题展示--经典主题--pink.webp', title: 'gallery.themePink' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/purple.png', local: '主题展示--经典主题--purple.webp', title: 'gallery.themePurple' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/green.png', local: '主题展示--经典主题--green.webp', title: 'gallery.themeGreen' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/blue.png', local: '主题展示--经典主题--blue.webp', title: 'gallery.themeBlue' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/orange.png', local: '主题展示--经典主题--orange.webp', title: 'gallery.themeOrange' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/red.png', local: '主题展示--经典主题--red.webp', title: 'gallery.themeRed' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/cyan.png', local: '主题展示--经典主题--cyan.webp', title: 'gallery.themeCyan' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/macos27-light.png', local: '主题展示--经典主题--macos27-light.webp', title: 'gallery.themeMacos27Light' },
+  { category: 'standard', file: 'docs/主题展示/经典主题/macos27.png', local: '主题展示--经典主题--macos27.webp', title: 'gallery.themeMacos27Dark' },
   { category: 'themes', file: 'docs/主题展示/大明/雪境朝臣.png', local: '主题展示--大明--雪境朝臣.webp', title: 'gallery.snowOfficial' },
   { category: 'themes', file: 'docs/主题展示/大明/雪夜笛姬.png', local: '主题展示--大明--雪夜笛姬.webp', title: 'gallery.snowFlute' },
   { category: 'themes', file: 'docs/主题展示/大明/月城书姬.png', local: '主题展示--大明--月城书姬.webp', title: 'skins.ming.title' },
@@ -79,4 +92,4 @@ export const gallery: GalleryItem[] = [
   { category: 'community', file: 'docs/社区/qq-group.jpg', local: '社区--qq-group.webp', title: 'gallery.qqGroup' },
 ]
 
-export const galleryCategories: GalleryCategory[] = ['classic', 'ming', 'themes', 'community']
+export const galleryCategories: GalleryCategory[] = ['classic', 'ming', 'standard', 'themes', 'community']

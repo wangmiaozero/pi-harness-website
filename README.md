@@ -27,9 +27,9 @@ pnpm dev
 
 ## 2. 本地图片素材
 
-已从 `/Users/tree/codes/my-codes/pi-Harness/docs` 导入全部 **36 张原始图片**，保留中文分类和文件名，存放于 `assets/docs/`（主题展示、功能界面、社区），并随素材保留了官方文档 Markdown 以便参考。
+已从 `/Users/tree/codes/my-codes/pi-Harness/docs` 导入全部 **50 张原始图片**，保留中文分类和文件名，存放于 `assets/docs/`（主题展示、功能界面、社区），并随素材保留了官方文档 Markdown 以便参考。
 
-页面使用的 **13 张精选截图和主题图片**与 **37 张全量图库渲染**已转换为优化 WebP，存放于 `public/assets/`。网站默认加载这些本地文件，可直接预览或构建，无需下载图片或设置环境变量。
+页面使用的 **13 张精选截图和主题图片**与 **50 张全量图库渲染**已转换为优化 WebP，存放于 `public/assets/`。网站默认加载这些本地文件，可直接预览或构建，无需下载图片或设置环境变量。
 
 更新 `assets/docs/` 中的原图后，执行以下命令重新生成页面素材：
 
@@ -50,7 +50,7 @@ npm run assets:sync
 | 产品截图 | 10 组来自 `docs/功能界面/经典主题/` 的真实图片，标签切换与放大（工作区、Harness、多智能体、项目架构、模型、能力中心、实时语音、MCP 市场、子智能体、远程主机） |
 | 功能网格 | Native Pi、Git & Worktrees、跨工具会话历史、架构图、能力生态（含 MCP 市场）、治理 |
 | 主题图库 | 大明 / 星舰 / macOS 27 的三张真实图片 |
-| 完整图库 | `docs/` 目录全部 37 张图片，按经典主题 / 大明界面 / 主题展示 / 社区分类筛选，点击放大 |
+| 完整图库 | `docs/` 目录全部 50 张图片，按经典主题 / 大明界面 / 标准主题 / 主题展示 / 社区分类筛选，点击放大 |
 | 架构示意 | Native Pi + Harness Control Plane 的层级关系 |
 | 下载 | macOS Apple Silicon / Intel、Windows x64、Linux x64 |
 | 社区 | GitHub、Harness Plugin SDK、Skin Starter、FAQ |

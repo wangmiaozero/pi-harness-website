@@ -62,7 +62,7 @@ const faqs = [0, 1, 2, 3].map(index => ({
 }))
 const galleryFilter = ref<'all' | GalleryCategory>('all')
 const galleryCategoryLabels: Record<GalleryCategory, MessageKey> = {
-  classic: 'gallery.classic', ming: 'gallery.ming', themes: 'gallery.themes', community: 'gallery.community',
+  classic: 'gallery.classic', ming: 'gallery.ming', standard: 'gallery.standard', themes: 'gallery.themes', community: 'gallery.community',
 }
 const filteredGallery = computed(() => galleryFilter.value === 'all' ? gallery : gallery.filter(item => item.category === galleryFilter.value))
 
