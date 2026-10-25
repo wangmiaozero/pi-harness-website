@@ -34,3 +34,49 @@ export function picture(item: { file: string; local: string }) {
 export function fallbackPicture(item: { file: string }) {
   return `${RAW}${item.file.split('/').map(encodeURIComponent).join('/')}`
 }
+
+export type GalleryCategory = 'classic' | 'ming' | 'themes' | 'community'
+export interface GalleryItem { category: GalleryCategory; file: string; local: string; title: MessageKey }
+
+// Every image from the project's docs/ tree, grouped by upstream category.
+export const gallery: GalleryItem[] = [
+  { category: 'classic', file: 'docs/功能界面/经典主题/工作区.png', local: '功能界面--经典主题--工作区.webp', title: 'screenshots.workspace.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/工具Harness-1.png', local: '功能界面--经典主题--工具Harness-1.webp', title: 'screenshots.harness.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/工具Harness-2.png', local: '功能界面--经典主题--工具Harness-2.webp', title: 'gallery.harness2' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/多智能体-团队.png', local: '功能界面--经典主题--多智能体-团队.webp', title: 'screenshots.agents.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/多智能体-任务依赖.png', local: '功能界面--经典主题--多智能体-任务依赖.webp', title: 'gallery.taskDependencies' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/项目架构-1.png', local: '功能界面--经典主题--项目架构-1.webp', title: 'screenshots.architecture.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/项目架构-2.png', local: '功能界面--经典主题--项目架构-2.webp', title: 'gallery.architecture2' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/项目架构-3.png', local: '功能界面--经典主题--项目架构-3.webp', title: 'gallery.architecture3' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/Provider与模型-1.png', local: '功能界面--经典主题--Provider与模型-1.webp', title: 'screenshots.models.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/Provider与模型-2.png', local: '功能界面--经典主题--Provider与模型-2.webp', title: 'gallery.providers2' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/能力中心-1.png', local: '功能界面--经典主题--能力中心-1.webp', title: 'screenshots.capabilities.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/能力中心-2.png', local: '功能界面--经典主题--能力中心-2.webp', title: 'gallery.capabilities2' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/能力中心-3.png', local: '功能界面--经典主题--能力中心-3.webp', title: 'gallery.capabilities3' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/Git.png', local: '功能界面--经典主题--Git.webp', title: 'gallery.git' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/通用设置.png', local: '功能界面--经典主题--通用设置.webp', title: 'gallery.generalSettings' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/主题皮肤库.png', local: '功能界面--经典主题--主题皮肤库.webp', title: 'gallery.skinGallery' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/AI.png', local: '功能界面--经典主题--AI.webp', title: 'gallery.aiPreferences' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/实时语音.png', local: '功能界面--经典主题--实时语音.webp', title: 'screenshots.voice.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/工作区语音.png', local: '功能界面--经典主题--工作区语音.webp', title: 'gallery.workspaceVoice' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/快捷键.png', local: '功能界面--经典主题--快捷键.webp', title: 'gallery.shortcuts' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/指令.png', local: '功能界面--经典主题--指令.webp', title: 'gallery.instructions' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/MCP服务器.png', local: '功能界面--经典主题--MCP服务器.webp', title: 'gallery.mcpServers' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/MCP市场.png', local: '功能界面--经典主题--MCP市场.webp', title: 'screenshots.mcp.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/子智能体.png', local: '功能界面--经典主题--子智能体.webp', title: 'screenshots.subagents.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/远程主机.png', local: '功能界面--经典主题--远程主机.webp', title: 'screenshots.remoteHosts.title' },
+  { category: 'ming', file: 'docs/功能界面/大明/Git.png', local: '功能界面--大明--Git.webp', title: 'gallery.mingGit' },
+  { category: 'ming', file: 'docs/功能界面/大明/Provider与模型.png', local: '功能界面--大明--Provider与模型.webp', title: 'gallery.mingProviders' },
+  { category: 'ming', file: 'docs/功能界面/大明/能力中心.png', local: '功能界面--大明--能力中心.webp', title: 'gallery.mingCapabilities' },
+  { category: 'ming', file: 'docs/功能界面/大明/项目架构.png', local: '功能界面--大明--项目架构.webp', title: 'gallery.mingArchitecture' },
+  { category: 'ming', file: 'docs/功能界面/大明/通用设置.png', local: '功能界面--大明--通用设置.webp', title: 'gallery.mingSettings' },
+  { category: 'ming', file: 'docs/功能界面/大明/主题皮肤库.png', local: '功能界面--大明--主题皮肤库.webp', title: 'gallery.mingSkinGallery' },
+  { category: 'themes', file: 'docs/主题展示/大明/雪境朝臣.png', local: '主题展示--大明--雪境朝臣.webp', title: 'gallery.snowOfficial' },
+  { category: 'themes', file: 'docs/主题展示/大明/雪夜笛姬.png', local: '主题展示--大明--雪夜笛姬.webp', title: 'gallery.snowFlute' },
+  { category: 'themes', file: 'docs/主题展示/大明/月城书姬.png', local: '主题展示--大明--月城书姬.webp', title: 'skins.ming.title' },
+  { category: 'themes', file: 'docs/主题展示/星舰/霜星领航.png', local: '主题展示--星舰--霜星领航.webp', title: 'skins.starship.title' },
+  { category: 'themes', file: 'docs/主题展示/macOS 27/Liquid Ether.png', local: '主题展示--macOS 27--Liquid Ether.webp', title: 'skins.liquid.title' },
+  { category: 'community', file: 'docs/社区/qq-group.jpg', local: '社区--qq-group.webp', title: 'gallery.qqGroup' },
+]
+
+export const galleryCategories: GalleryCategory[] = ['classic', 'ming', 'themes', 'community']

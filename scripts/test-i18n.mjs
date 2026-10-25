@@ -35,6 +35,7 @@ test('all literal and data-driven translation keys exist', () => {
     for (const match of read(path).matchAll(/\bt\('([^']+)'\)/g)) assert.ok(englishKeys.includes(match[1]), match[1])
   }
   for (const match of read('../src/data.ts').matchAll(/(?:title|description|category): '([^']+)'/g)) {
+    if (!match[1].includes('.')) continue // structural fields like gallery categories are not message keys
     assert.ok(englishKeys.includes(match[1]), match[1])
   }
   for (let index = 0; index < 4; index++) {
