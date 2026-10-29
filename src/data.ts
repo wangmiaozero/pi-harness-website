@@ -20,12 +20,15 @@ export const screenshots = [
   { key: 'mcp', category: 'screenshots.mcp.label', file: 'docs/功能界面/经典主题/MCP市场.png', local: 'mcp.webp', label: '08', title: 'screenshots.mcp.title', description: 'screenshots.mcp.description' },
   { key: 'subagents', category: 'screenshots.subagents.label', file: 'docs/功能界面/经典主题/子智能体.png', local: 'subagents.webp', label: '09', title: 'screenshots.subagents.title', description: 'screenshots.subagents.description' },
   { key: 'remoteHosts', category: 'screenshots.remoteHosts.label', file: 'docs/功能界面/经典主题/远程主机.png', local: 'remote-hosts.webp', label: '10', title: 'screenshots.remoteHosts.title', description: 'screenshots.remoteHosts.description' },
+  { key: 'history', category: 'screenshots.history.label', file: 'docs/功能界面/经典主题/会话历史.png', local: 'history.webp', label: '11', title: 'screenshots.history.title', description: 'screenshots.history.description' },
+  { key: 'editor', category: 'screenshots.editor.label', file: 'docs/功能界面/经典主题/代码编辑.png', local: 'editor.webp', label: '12', title: 'screenshots.editor.title', description: 'screenshots.editor.description' },
+  { key: 'companion', category: 'screenshots.companion.label', file: 'docs/功能界面/经典主题/桌宠设置.png', local: 'companion.webp', label: '13', title: 'screenshots.companion.title', description: 'screenshots.companion.description' },
 ] as const satisfies readonly { key: string; file: string; local: string; title: MessageKey; description: MessageKey; label: string; category: MessageKey }[]
 
 export const themes = [
   { key: 'ming', file: 'docs/主题展示/大明/月城书姬.png', local: 'theme-ming.webp', title: 'skins.ming.title', description: 'skins.ming.description' },
   { key: 'starship', file: 'docs/主题展示/星舰/霜星领航.png', local: 'theme-starship.webp', title: 'skins.starship.title', description: 'skins.starship.description' },
-  { key: 'liquid', file: 'docs/主题展示/macOS 27/Liquid Ether.png', local: 'theme-liquid.webp', title: 'skins.liquid.title', description: 'skins.liquid.description' },
+  { key: 'liquid', file: 'docs/主题展示/经典主题/macos27.png', local: 'theme-liquid.webp', title: 'skins.liquid.title', description: 'skins.liquid.description' },
 ] as const satisfies readonly { key: string; file: string; local: string; title: MessageKey; description: MessageKey }[]
 
 export function picture(item: { file: string; local: string }) {
@@ -40,6 +43,12 @@ export interface GalleryItem { category: GalleryCategory; file: string; local: s
 
 // Every image from the project's docs/ tree, grouped by upstream category.
 export const gallery: GalleryItem[] = [
+  { category: 'classic', file: 'docs/功能界面/经典主题/会话历史.png', local: '功能界面--经典主题--会话历史.webp', title: 'screenshots.history.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/会话清理.png', local: '功能界面--经典主题--会话清理.webp', title: 'gallery.sessionCleanup' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/代码编辑.png', local: '功能界面--经典主题--代码编辑.webp', title: 'screenshots.editor.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/桌宠设置.png', local: '功能界面--经典主题--桌宠设置.webp', title: 'screenshots.companion.title' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/桌宠菜单.png', local: '功能界面--经典主题--桌宠菜单.webp', title: 'gallery.petMenu' },
+  { category: 'classic', file: 'docs/功能界面/经典主题/桌宠动作.png', local: '功能界面--经典主题--桌宠动作.webp', title: 'gallery.petActions' },
   { category: 'classic', file: 'docs/功能界面/经典主题/工作区.png', local: '功能界面--经典主题--工作区.webp', title: 'screenshots.workspace.title' },
   { category: 'classic', file: 'docs/功能界面/经典主题/工具Harness-1.png', local: '功能界面--经典主题--工具Harness-1.webp', title: 'screenshots.harness.title' },
   { category: 'classic', file: 'docs/功能界面/经典主题/工具Harness-2.png', local: '功能界面--经典主题--工具Harness-2.webp', title: 'gallery.harness2' },
@@ -88,7 +97,6 @@ export const gallery: GalleryItem[] = [
   { category: 'themes', file: 'docs/主题展示/大明/雪夜笛姬.png', local: '主题展示--大明--雪夜笛姬.webp', title: 'gallery.snowFlute' },
   { category: 'themes', file: 'docs/主题展示/大明/月城书姬.png', local: '主题展示--大明--月城书姬.webp', title: 'skins.ming.title' },
   { category: 'themes', file: 'docs/主题展示/星舰/霜星领航.png', local: '主题展示--星舰--霜星领航.webp', title: 'skins.starship.title' },
-  { category: 'themes', file: 'docs/主题展示/macOS 27/Liquid Ether.png', local: '主题展示--macOS 27--Liquid Ether.webp', title: 'skins.liquid.title' },
   { category: 'community', file: 'docs/社区/qq-group.jpg', local: '社区--qq-group.webp', title: 'gallery.qqGroup' },
 ]
 

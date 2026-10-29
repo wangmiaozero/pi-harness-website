@@ -20,9 +20,12 @@ const sources = [
   ['mcp.webp','docs/功能界面/经典主题/MCP市场.png',1800],
   ['subagents.webp','docs/功能界面/经典主题/子智能体.png',1800],
   ['remote-hosts.webp','docs/功能界面/经典主题/远程主机.png',1800],
+  ['history.webp','docs/功能界面/经典主题/会话历史.png',1800],
+  ['editor.webp','docs/功能界面/经典主题/代码编辑.png',1800],
+  ['companion.webp','docs/功能界面/经典主题/桌宠设置.png',1800],
   ['theme-ming.webp','docs/主题展示/大明/月城书姬.png',1200],
   ['theme-starship.webp','docs/主题展示/星舰/霜星领航.png',1200],
-  ['theme-liquid.webp','docs/主题展示/macOS 27/Liquid Ether.png',1200],
+  ['theme-liquid.webp','docs/主题展示/经典主题/macos27.png',1200],
 ]
 
 /** Every image under assets/docs also gets a full-size slug render for the gallery. */
