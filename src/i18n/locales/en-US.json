@@ -260,10 +260,10 @@
   "screenshots.editor.description": "A lightweight text editor with syntax highlighting, line numbers, find, undo/redo, explicit save and protection against external-change conflicts.",
   "screenshots.companion.label": "Desktop companion",
   "screenshots.companion.title": "BigFish, beside your work",
-  "screenshots.companion.description": "An optional companion shows thinking, tool activity, waiting and completion, even with the main window minimized. Off by default; 101 searchable actions, local pet packs and size, opacity and bubble controls.",
+  "screenshots.companion.description": "An optional companion shows thinking, tool activity, waiting and completion, even with the main window minimized. Off by default; 193 searchable actions, local pet packs and size, opacity and bubble controls.",
   "gallery.sessionCleanup": "Session cleanup",
   "gallery.petMenu": "Desktop companion · context menu",
-  "gallery.petActions": "Desktop companion · 101 actions",
+  "gallery.petActions": "Desktop companion · 193 actions",
   "capabilities.companion": "Desktop companion",
-  "download.update": "Community builds check for updates and open official Releases for manual installation. Choose standard or nomascot packages; availability and validation follow each release’s notes."
+  "download.update": "Community builds check for updates and open official Releases for manual installation. Download the same architecture and variant (standard or nomascot), verify SHA256SUMS, back up important work and quit the app before installing. Keep your application data."
 }

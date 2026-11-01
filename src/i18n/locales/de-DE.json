@@ -260,10 +260,10 @@
   "screenshots.editor.description": "Ein schlanker Texteditor mit Syntaxhervorhebung, Zeilennummern, Suche, Rückgängig/Wiederholen, explizitem Speichern und Schutz vor Konflikten mit externen Änderungen.",
   "screenshots.companion.label": "Desktop-Begleiter",
   "screenshots.companion.title": "BigFish begleitet Ihre Arbeit",
-  "screenshots.companion.description": "Ein optionaler Begleiter zeigt Denken, Werkzeugaktivität, Warten und Abschluss auch bei minimiertem Hauptfenster. Standardmäßig deaktiviert. Mit 101 durchsuchbaren Aktionen, lokalen Paketen sowie Größen-, Transparenz- und Sprechblaseneinstellungen.",
+  "screenshots.companion.description": "Ein optionaler Begleiter zeigt Denken, Werkzeugaktivität, Warten und Abschluss auch bei minimiertem Hauptfenster. Standardmäßig deaktiviert. Mit 193 durchsuchbaren Aktionen, lokalen Paketen sowie Größen-, Transparenz- und Sprechblaseneinstellungen.",
   "gallery.sessionCleanup": "Sitzungen bereinigen",
   "gallery.petMenu": "Begleiter · Kontextmenü",
-  "gallery.petActions": "Begleiter · 101 Aktionen",
+  "gallery.petActions": "Begleiter · 193 Aktionen",
   "capabilities.companion": "Desktop-Begleiter",
-  "download.update": "Community-Versionen suchen nach Updates und öffnen die offiziellen Releases zur manuellen Installation. Standard- oder nomascot-Pakete stehen zur Wahl; Plattformverfügbarkeit und Prüfergebnisse stehen in den jeweiligen Versionshinweisen."
+  "download.update": "Community-Versionen öffnen die offiziellen Releases zur manuellen Aktualisierung. Laden Sie dieselbe Architektur und Variante (Standard oder nomascot) herunter, prüfen Sie SHA256SUMS, sichern Sie wichtige Arbeit und beenden Sie die App vor der Installation. Behalten Sie Ihre App-Daten."
 }

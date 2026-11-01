@@ -260,10 +260,10 @@
   "screenshots.editor.description": "構文ハイライト、行番号、検索、元に戻す・やり直し、明示的な保存、外部変更との競合保護を備えた軽量テキストエディター。",
   "screenshots.companion.label": "デスクトップの仲間",
   "screenshots.companion.title": "作業に寄り添う BigFish",
-  "screenshots.companion.description": "思考、ツールの動作、待機、完了を表示する任意のペット。メイン画面の最小化中も動作します。初期設定ではオフ。検索可能な 101 の動作、ローカルペットパック、サイズ・透明度・吹き出し設定に対応。",
+  "screenshots.companion.description": "思考、ツールの動作、待機、完了を表示する任意のペット。メイン画面の最小化中も動作します。初期設定ではオフ。検索可能な 193 の動作、ローカルペットパック、サイズ・透明度・吹き出し設定に対応。",
   "gallery.sessionCleanup": "セッションの整理",
   "gallery.petMenu": "ペット · 右クリックメニュー",
-  "gallery.petActions": "ペット · 101 の動作",
+  "gallery.petActions": "ペット · 193 の動作",
   "capabilities.companion": "デスクトップの仲間",
-  "download.update": "コミュニティ版は更新を確認し、手動インストール用に公式 Releases を開きます。標準版と nomascot 版を選択可能。対応環境と検証結果は各リリースノートをご確認ください。"
+  "download.update": "コミュニティ版は更新を確認し、手動インストール用に公式 Releases を開きます。同じアーキテクチャと種類（標準版または nomascot）をダウンロードし、SHA256SUMS を確認してください。重要な作業をバックアップし、アプリを終了してからインストールします。アプリのデータは保持してください。"
 }

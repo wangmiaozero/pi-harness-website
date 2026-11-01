@@ -260,10 +260,10 @@
   "screenshots.editor.description": "轻量文本编辑器提供语法高亮、行号、查找、撤销与重做、显式保存，以及外部修改冲突保护。",
   "screenshots.companion.label": "桌面伙伴",
   "screenshots.companion.title": "BigFish，陪伴每一次工作",
-  "screenshots.companion.description": "可选桌宠呈现思考、工具活动、等待与完成状态，主窗口最小化后仍可使用。默认关闭，支持 101 个可搜索动作、本地宠物包及大小、透明度和气泡设置。",
+  "screenshots.companion.description": "可选桌宠呈现思考、工具活动、等待与完成状态，主窗口最小化后仍可使用。默认关闭，支持 193 个可搜索动作、本地宠物包及大小、透明度和气泡设置。",
   "gallery.sessionCleanup": "会话清理",
   "gallery.petMenu": "桌宠 · 右键菜单",
-  "gallery.petActions": "桌宠 · 101 个动作",
+  "gallery.petActions": "桌宠 · 193 个动作",
   "capabilities.companion": "桌面伙伴",
-  "download.update": "社区构建检查新版本后打开官方 Releases，由你手动下载安装。可选标准版或 nomascot 版，平台可用性与验证结果以对应发行说明为准。"
+  "download.update": "社区构建检查更新后打开官方 Releases，由你手动安装。下载与当前安装相同架构和版本类型（标准版或 nomascot）的安装包，核对 SHA256SUMS，备份重要工作并退出应用后再安装。保留应用数据。"
 }

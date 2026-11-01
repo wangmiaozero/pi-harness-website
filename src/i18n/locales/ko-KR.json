@@ -260,10 +260,10 @@
   "screenshots.editor.description": "구문 강조, 줄 번호, 찾기, 실행 취소 및 다시 실행, 명시적 저장, 외부 변경 충돌 보호를 제공하는 가벼운 텍스트 편집기입니다.",
   "screenshots.companion.label": "데스크톱 친구",
   "screenshots.companion.title": "작업 곁의 BigFish",
-  "screenshots.companion.description": "생각, 도구 활동, 대기 및 완료 상태를 보여 주는 선택형 펫으로, 메인 창을 최소화해도 작동합니다. 기본값은 꺼짐이며 검색 가능한 101개 동작, 로컬 펫 팩, 크기·투명도·말풍선 설정을 지원합니다.",
+  "screenshots.companion.description": "생각, 도구 활동, 대기 및 완료 상태를 보여 주는 선택형 펫으로, 메인 창을 최소화해도 작동합니다. 기본값은 꺼짐이며 검색 가능한 193개 동작, 로컬 펫 팩, 크기·투명도·말풍선 설정을 지원합니다.",
   "gallery.sessionCleanup": "세션 정리",
   "gallery.petMenu": "데스크톱 펫 · 우클릭 메뉴",
-  "gallery.petActions": "데스크톱 펫 · 101개 동작",
+  "gallery.petActions": "데스크톱 펫 · 193개 동작",
   "capabilities.companion": "데스크톱 친구",
-  "download.update": "커뮤니티 빌드는 업데이트를 확인한 뒤 수동 설치를 위해 공식 Releases를 엽니다. 표준 또는 nomascot 패키지를 선택할 수 있으며 플랫폼 지원 및 검증 결과는 각 릴리스 노트를 따릅니다."
+  "download.update": "커뮤니티 빌드는 업데이트 확인 후 수동 설치를 위해 공식 Releases를 엽니다. 현재 설치와 같은 아키텍처 및 유형(표준 또는 nomascot)을 다운로드하고 SHA256SUMS를 확인하세요. 중요한 작업을 백업하고 앱을 종료한 뒤 설치하세요. 앱 데이터는 보존하세요."
 }

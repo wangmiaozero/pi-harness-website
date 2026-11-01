@@ -260,10 +260,10 @@
   "screenshots.editor.description": "Un éditeur léger avec coloration syntaxique, numéros de ligne, recherche, annulation et rétablissement, enregistrement explicite et protection contre les conflits de modifications externes.",
   "screenshots.companion.label": "Compagnon",
   "screenshots.companion.title": "BigFish à vos côtés",
-  "screenshots.companion.description": "Un compagnon facultatif affiche la réflexion, les outils, l’attente et la fin des tâches, même quand la fenêtre est réduite. Désactivé par défaut : 101 actions avec recherche, packs locaux et réglages de taille, d’opacité et de bulles.",
+  "screenshots.companion.description": "Un compagnon facultatif affiche la réflexion, les outils, l’attente et la fin des tâches, même quand la fenêtre est réduite. Désactivé par défaut : 193 actions avec recherche, packs locaux et réglages de taille, d’opacité et de bulles.",
   "gallery.sessionCleanup": "Nettoyage des sessions",
   "gallery.petMenu": "Compagnon · menu contextuel",
-  "gallery.petActions": "Compagnon · 101 actions",
+  "gallery.petActions": "Compagnon · 193 actions",
   "capabilities.companion": "Compagnon de bureau",
-  "download.update": "Les versions communautaires recherchent les mises à jour et ouvrent les Releases officielles pour une installation manuelle. Choisissez le paquet standard ou nomascot ; consultez les notes de version pour les plateformes et leur validation."
+  "download.update": "Les versions communautaires ouvrent les Releases officielles pour une mise à jour manuelle. Téléchargez la même architecture et variante (standard ou nomascot), vérifiez SHA256SUMS, sauvegardez votre travail et quittez l’application avant l’installation. Conservez les données de l’application."
 }

@@ -260,10 +260,10 @@
   "screenshots.editor.description": "輕量文字編輯器提供語法醒目提示、行號、搜尋、復原與重做、明確儲存，以及外部修改衝突保護。",
   "screenshots.companion.label": "桌面夥伴",
   "screenshots.companion.title": "BigFish，陪伴每一次工作",
-  "screenshots.companion.description": "選用桌寵呈現思考、工具活動、等待與完成狀態，主視窗最小化後仍可使用。預設關閉，支援 101 個可搜尋動作、本機寵物包及大小、透明度與氣泡設定。",
+  "screenshots.companion.description": "選用桌寵呈現思考、工具活動、等待與完成狀態，主視窗最小化後仍可使用。預設關閉，支援 193 個可搜尋動作、本機寵物包及大小、透明度與氣泡設定。",
   "gallery.sessionCleanup": "對話清理",
   "gallery.petMenu": "桌寵 · 右鍵選單",
-  "gallery.petActions": "桌寵 · 101 個動作",
+  "gallery.petActions": "桌寵 · 193 個動作",
   "capabilities.companion": "桌面夥伴",
-  "download.update": "社群版本檢查更新後開啟官方 Releases，由你手動下載安裝。可選標準版或 nomascot 版，平台可用性與驗證結果以各版本發行說明為準。"
+  "download.update": "社群版本檢查更新後開啟官方 Releases，由你手動安裝。下載與目前安裝相同架構及類型（標準版或 nomascot）的套件，核對 SHA256SUMS，備份重要工作並退出應用程式後再安裝。保留應用程式資料。"
 }
