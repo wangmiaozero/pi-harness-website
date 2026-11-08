@@ -31,8 +31,18 @@ export const themes = [
   { key: 'liquid', file: 'docs/主题展示/经典主题/macos27.png', local: 'theme-liquid.webp', title: 'skins.liquid.title', description: 'skins.liquid.description' },
 ] as const satisfies readonly { key: string; file: string; local: string; title: MessageKey; description: MessageKey }[]
 
+export const films = [
+  { key: 'welcome', file: 'videos/welcome.mp4', poster: 'videos/welcome.jpg', duration: '00:11', title: 'films.welcome.title', description: 'films.welcome.description' },
+  { key: 'work-mode', file: 'videos/work-mode.mp4', poster: 'videos/work-mode.jpg', duration: '00:13', title: 'films.workMode.title', description: 'films.workMode.description' },
+  { key: 'startup', file: 'videos/startup.mp4', poster: 'videos/startup.jpg', duration: '00:33', title: 'films.startup.title', description: 'films.startup.description' },
+  { key: 'work-mode-full', file: 'videos/work-mode-full.mp4', poster: 'videos/work-mode-full.jpg', duration: '00:34', title: 'films.workModeFull.title', description: 'films.workModeFull.description' },
+] as const satisfies readonly { key: string; file: string; poster: string; duration: string; title: MessageKey; description: MessageKey }[]
+
 export function picture(item: { file: string; local: string }) {
   return LOCAL ? `${import.meta.env.BASE_URL}assets/${item.local}` : `${RAW}${item.file.split('/').map(encodeURIComponent).join('/')}`
+}
+export function media(path: string) {
+  return `${import.meta.env.BASE_URL}${path}`
 }
 export function fallbackPicture(item: { file: string }) {
   return `${RAW}${item.file.split('/').map(encodeURIComponent).join('/')}`
