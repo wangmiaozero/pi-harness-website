@@ -15,6 +15,8 @@ const sources = [
   ['agents.webp','docs/功能界面/经典主题/多智能体-团队.png',1800],
   ['architecture.webp','docs/功能界面/经典主题/项目架构-1.png',1800],
   ['models.webp','docs/功能界面/经典主题/Provider与模型-1.png',1800],
+  ['chatgpt-sign-in.webp','docs/功能界面/经典主题/ChatGPT授权.png',1800],
+  ['free-models.webp','docs/功能界面/经典主题/免费模型.png',1800],
   ['capabilities.webp','docs/功能界面/经典主题/能力中心-1.png',1800],
   ['voice.webp','docs/功能界面/经典主题/实时语音.png',1800],
   ['mcp.webp','docs/功能界面/经典主题/MCP市场.png',1800],

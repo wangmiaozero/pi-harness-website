@@ -4,13 +4,19 @@ Browse the current Pi-Harness interface, desktop companion, themes, and communit
 
 Pi-Harness 截图按功能界面、主题展示和社区资源分类，点击图片链接可查看原图。
 
-Updated on 2026-11-01 using the current desktop UI and an isolated demo workspace.
+The provider, ChatGPT sign-in, and Free Models screenshots were refreshed on 2026-11-15 using Pi-Harness 2.4.8. The account and usage figures are examples.
 
-截图于 2026-11-01 使用当前桌面界面与独立演示工作区更新。
+提供商、ChatGPT 授权和免费模型截图于 2026-11-15 使用 Pi-Harness 2.4.8 更新。截图中的账户和用量为示例。
 
-[English](../README.md) · [简体中文](../README.zh-CN.md) · [繁體中文](../README.zh-TW.md) · [日本語](../README.ja-JP.md) · [한국어](../README.ko-KR.md) · [Русский](../README.ru-RU.md) · [Français](../README.fr-FR.md) · [Deutsch](../README.de-DE.md)
+[English](https://github.com/wangmiaozero/pi-harness/blob/main/README.md) · [简体中文](https://github.com/wangmiaozero/pi-harness/blob/main/README.zh-CN.md) · [繁體中文](https://github.com/wangmiaozero/pi-harness/blob/main/README.zh-TW.md) · [日本語](https://github.com/wangmiaozero/pi-harness/blob/main/README.ja-JP.md) · [한국어](https://github.com/wangmiaozero/pi-harness/blob/main/README.ko-KR.md) · [Русский](https://github.com/wangmiaozero/pi-harness/blob/main/README.ru-RU.md) · [Français](https://github.com/wangmiaozero/pi-harness/blob/main/README.fr-FR.md) · [Deutsch](https://github.com/wangmiaozero/pi-harness/blob/main/README.de-DE.md)
 
-[Agent settings guide / 智能体设置使用指南](agent-settings.md) · [Changelog / 更新日志](../CHANGELOG.md)
+[Agent settings guide / 智能体设置使用指南](agent-settings.md) · [Changelog / 更新日志](https://github.com/wangmiaozero/pi-harness/blob/main/CHANGELOG.md)
+
+## Recordings / 实拍
+
+https://github.com/user-attachments/assets/942b73c9-ece9-485e-ad82-0e51225a73c1
+
+https://github.com/user-attachments/assets/98708766-f490-4506-a33f-f1376d41770f
 
 ## Product interfaces / 功能界面
 
@@ -24,7 +30,9 @@ Updated on 2026-11-01 using the current desktop UI and an isolated demo workspac
 | Session cleanup / 会话清理                     | [会话清理](功能界面/经典主题/会话清理.png)                                                                                         |
 | Desktop companion / 桌面伴侣                   | [设置](功能界面/经典主题/桌宠设置.png) · [右键菜单](功能界面/经典主题/桌宠菜单.png) · [193 个动作](功能界面/经典主题/桌宠动作.png) |
 | Git                                            | [Git](功能界面/经典主题/Git.png)                                                                                                   |
-| Providers and models / Provider 与模型         | [1](功能界面/经典主题/Provider与模型-1.png) · [2](功能界面/经典主题/Provider与模型-2.png)                                          |
+| Providers and models / Provider 与模型         | [Providers / 提供商](功能界面/经典主题/Provider与模型-1.png) · [Models / 模型](功能界面/经典主题/Provider与模型-2.png)             |
+| ChatGPT sign-in / ChatGPT 授权                 | [Browser sign-in prompt / 浏览器授权提示](功能界面/经典主题/ChatGPT授权.png)                                                       |
+| Free Models / 免费模型                         | [Chat model picker / 聊天模型选择器](功能界面/经典主题/免费模型.png)                                                               |
 | Capabilities / 能力中心                        | [1](功能界面/经典主题/能力中心-1.png) · [2](功能界面/经典主题/能力中心-2.png) · [3](功能界面/经典主题/能力中心-3.png)              |
 | Harness tools / Harness 工具                   | [1](功能界面/经典主题/工具Harness-1.png) · [2](功能界面/经典主题/工具Harness-2.png)                                                |
 | Multi-Agent / 多智能体                         | [Team / 团队](功能界面/经典主题/多智能体-团队.png) · [Task dependencies / 任务依赖](功能界面/经典主题/多智能体-任务依赖.png)       |
@@ -89,6 +97,27 @@ Voice screenshots show setup and preparation before a call; MCP and remote host 
 
 ## Community / 社区
 
-| Resource / 资源  | Image / 图片                                 |
-| ---------------- | -------------------------------------------- |
-| QQ group / QQ 群 | [pi-harness · 1109717308](社区/qq-group.jpg) |
+[Community / 社区联系方式](https://github.com/wangmiaozero/pi-harness/blob/main/README.zh-CN.md#社区)
+
+## 赞助商
+
+<table>
+  <tr>
+    <td width="580" align="center" valign="middle">
+        <a href="https://infistar.cc/register?aff=S26RFM4B&ref_source=link" style="color:transparent;background-color:transparent;text-decoration:none;border:none;"><img src="https://github.com/wangmiaozero/pi-harness/blob/main/docs/assets/infistar-banner.png?raw=true" width="560" alt="Pi-Harness × Infistar.cc 无限星河" style="color:transparent;background-color:transparent;text-decoration:none;border:none;" /></a>
+    </td>
+    <td valign="middle">
+      Pi-Harness × Infistar.cc 无限星河｜Claude、GPT、Gemini、Grok、DeepSeek 等，一个 Key，只花官方价的零头，省 99%；低至官方 0.1 折，100% 官方纯血，每个模型都能验真；上千线路安全冗余自动切换，200+ 模型、16 个品牌，一个 Key 搞定。<br>
+      Pi-Harness 用户通过<a href="https://infistar.cc/register?aff=S26RFM4B&ref_source=link">专属链接</a>注册直接送人民币 5 元：<a href="https://infistar.cc/register?aff=S26RFM4B&ref_source=link">https://infistar.cc/register?aff=S26RFM4B&ref_source=link</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="580" align="center" valign="middle">
+        <a href="https://cloud.tencent.com/act/cps/redirect?redirect=6871&amp;cps_key=ece2099a1da90c2f7a4a4c437ad623f8&amp;from=console" style="color:transparent;background-color:transparent;text-decoration:none;border:none;"><img src="https://github.com/wangmiaozero/pi-harness/blob/main/docs/assets/workbuddy-banner.jpg?raw=true" width="560" alt="腾讯云 WorkBuddy" style="color:transparent;background-color:transparent;text-decoration:none;border:none;" /></a>
+    </td>
+    <td valign="middle">
+      【腾讯云】WorkBuddy 全场景 AI 办公工作台，团队旗舰版低至198元/月<br>
+      <a href="https://cloud.tencent.com/act/cps/redirect?redirect=6871&amp;cps_key=ece2099a1da90c2f7a4a4c437ad623f8&amp;from=console">https://cloud.tencent.com/act/cps/redirect?redirect=6871&amp;cps_key=ece2099a1da90c2f7a4a4c437ad623f8&amp;from=console</a>
+    </td>
+  </tr>
+</table>
