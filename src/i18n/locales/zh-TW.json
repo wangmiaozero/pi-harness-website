@@ -285,5 +285,8 @@
   "gallery.petMenu": "桌寵 · 右鍵選單",
   "gallery.petActions": "桌寵 · 193 個動作",
   "capabilities.companion": "桌面夥伴",
-  "download.update": "社群版本檢查更新後開啟官方 Releases，由你手動安裝。下載與目前安裝相同架構及類型（標準版或 nomascot）的套件，核對 SHA256SUMS，備份重要工作並退出應用程式後再安裝。保留應用程式資料。"
+  "download.update": "社群版本檢查更新後開啟官方 Releases，由你手動安裝。下載與目前安裝相同架構及類型（標準版或 nomascot）的套件，核對 SHA256SUMS，備份重要工作並退出應用程式後再安裝。保留應用程式資料。",
+  "theme.toDark": "切換到深色主題",
+  "theme.toLight": "切換到淺色主題",
+  "a11y.skip": "跳至主要內容"
 }

@@ -285,5 +285,8 @@
   "gallery.petMenu": "Desktop companion · context menu",
   "gallery.petActions": "Desktop companion · 193 actions",
   "capabilities.companion": "Desktop companion",
-  "download.update": "Community builds check for updates and open official Releases for manual installation. Download the same architecture and variant (standard or nomascot), verify SHA256SUMS, back up important work and quit the app before installing. Keep your application data."
+  "download.update": "Community builds check for updates and open official Releases for manual installation. Download the same architecture and variant (standard or nomascot), verify SHA256SUMS, back up important work and quit the app before installing. Keep your application data.",
+  "theme.toDark": "Switch to dark theme",
+  "theme.toLight": "Switch to light theme",
+  "a11y.skip": "Skip to content"
 }

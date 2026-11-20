@@ -285,5 +285,8 @@
   "gallery.petMenu": "Compagnon · menu contextuel",
   "gallery.petActions": "Compagnon · 193 actions",
   "capabilities.companion": "Compagnon de bureau",
-  "download.update": "Les versions communautaires ouvrent les Releases officielles pour une mise à jour manuelle. Téléchargez la même architecture et variante (standard ou nomascot), vérifiez SHA256SUMS, sauvegardez votre travail et quittez l’application avant l’installation. Conservez les données de l’application."
+  "download.update": "Les versions communautaires ouvrent les Releases officielles pour une mise à jour manuelle. Téléchargez la même architecture et variante (standard ou nomascot), vérifiez SHA256SUMS, sauvegardez votre travail et quittez l’application avant l’installation. Conservez les données de l’application.",
+  "theme.toDark": "Passer au thème sombre",
+  "theme.toLight": "Passer au thème clair",
+  "a11y.skip": "Aller au contenu"
 }

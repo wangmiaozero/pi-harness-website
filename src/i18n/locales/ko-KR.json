@@ -285,5 +285,8 @@
   "gallery.petMenu": "데스크톱 펫 · 우클릭 메뉴",
   "gallery.petActions": "데스크톱 펫 · 193개 동작",
   "capabilities.companion": "데스크톱 친구",
-  "download.update": "커뮤니티 빌드는 업데이트 확인 후 수동 설치를 위해 공식 Releases를 엽니다. 현재 설치와 같은 아키텍처 및 유형(표준 또는 nomascot)을 다운로드하고 SHA256SUMS를 확인하세요. 중요한 작업을 백업하고 앱을 종료한 뒤 설치하세요. 앱 데이터는 보존하세요."
+  "download.update": "커뮤니티 빌드는 업데이트 확인 후 수동 설치를 위해 공식 Releases를 엽니다. 현재 설치와 같은 아키텍처 및 유형(표준 또는 nomascot)을 다운로드하고 SHA256SUMS를 확인하세요. 중요한 작업을 백업하고 앱을 종료한 뒤 설치하세요. 앱 데이터는 보존하세요.",
+  "theme.toDark": "다크 테마로 전환",
+  "theme.toLight": "라이트 테마로 전환",
+  "a11y.skip": "본문으로 건너뛰기"
 }

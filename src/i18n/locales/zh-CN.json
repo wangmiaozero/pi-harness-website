@@ -285,5 +285,8 @@
   "gallery.petMenu": "桌宠 · 右键菜单",
   "gallery.petActions": "桌宠 · 193 个动作",
   "capabilities.companion": "桌面伙伴",
-  "download.update": "社区构建检查更新后打开官方 Releases，由你手动安装。下载与当前安装相同架构和版本类型（标准版或 nomascot）的安装包，核对 SHA256SUMS，备份重要工作并退出应用后再安装。保留应用数据。"
+  "download.update": "社区构建检查更新后打开官方 Releases，由你手动安装。下载与当前安装相同架构和版本类型（标准版或 nomascot）的安装包，核对 SHA256SUMS，备份重要工作并退出应用后再安装。保留应用数据。",
+  "theme.toDark": "切换到深色主题",
+  "theme.toLight": "切换到浅色主题",
+  "a11y.skip": "跳到主要内容"
 }

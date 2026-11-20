@@ -285,5 +285,8 @@
   "gallery.petMenu": "Begleiter · Kontextmenü",
   "gallery.petActions": "Begleiter · 193 Aktionen",
   "capabilities.companion": "Desktop-Begleiter",
-  "download.update": "Community-Versionen öffnen die offiziellen Releases zur manuellen Aktualisierung. Laden Sie dieselbe Architektur und Variante (Standard oder nomascot) herunter, prüfen Sie SHA256SUMS, sichern Sie wichtige Arbeit und beenden Sie die App vor der Installation. Behalten Sie Ihre App-Daten."
+  "download.update": "Community-Versionen öffnen die offiziellen Releases zur manuellen Aktualisierung. Laden Sie dieselbe Architektur und Variante (Standard oder nomascot) herunter, prüfen Sie SHA256SUMS, sichern Sie wichtige Arbeit und beenden Sie die App vor der Installation. Behalten Sie Ihre App-Daten.",
+  "theme.toDark": "Zum dunklen Thema wechseln",
+  "theme.toLight": "Zum hellen Thema wechseln",
+  "a11y.skip": "Zum Inhalt springen"
 }

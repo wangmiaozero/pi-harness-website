@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/pi-harness-website/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#080e18" />
+    <meta name="theme-color" content="#f4f4f2" />
+    <meta name="color-scheme" content="light dark" />
     <meta name="description" content="Pi-Harness 是围绕原生 Pi Coding Agent 打造的桌面运维工作台：可观测、可治理、可恢复、多 Agent 编排。支持 macOS、Windows 与 Linux。" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:type" content="website" />
@@ -13,9 +14,18 @@
     <meta property="og:image" content="https://wangmiaozero.github.io/pi-harness-website/og-cover.svg" />
     <meta name="twitter:card" content="summary_large_image" />
     <title>Pi-Harness — The Operational Superset of Pi Coding Agent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin />
-    <script type="module" crossorigin src="/pi-harness-website/assets/index-B_bYkWnq.js"></script>
-    <link rel="stylesheet" crossorigin href="/pi-harness-website/assets/index-BEU6mlaH.css">
+    <script>
+      try {
+        var theme = localStorage.getItem('pi-harness-site-theme')
+        if (theme === 'dark' || theme === 'light') document.documentElement.dataset.theme = theme
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/pi-harness-website/assets/index-Bl9pJ0L_.js"></script>
+    <link rel="stylesheet" crossorigin href="/pi-harness-website/assets/index-BjdFopNe.css">
   </head>
   <body>
     <div id="app"></div>

@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { readFileSync } from 'node:fs'
+import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { languages, isLanguage, resolveLocale, storedLanguage, loadLanguage, saveLanguage } from '../src/i18n/language.ts'
 
 const read = path => readFileSync(new URL(path, import.meta.url), 'utf8')
@@ -30,9 +30,19 @@ test('all user-facing sections, screenshots, themes and FAQ answers are translat
   }
 })
 
+function walk(dir) {
+  return readdirSync(new URL(dir, import.meta.url)).flatMap(name => {
+    const rel = `${dir}/${name}`
+    return statSync(new URL(rel, import.meta.url)).isDirectory() ? walk(rel) : rel
+  })
+}
+
 test('all literal and data-driven translation keys exist', () => {
-  for (const path of ['../src/App.vue', '../src/i18n/index.ts']) {
-    for (const match of read(path).matchAll(/\bt\('([^']+)'\)/g)) assert.ok(englishKeys.includes(match[1]), match[1])
+  const files = walk('../src').filter(path => /\.(vue|ts)$/.test(path) && !path.includes('/locales/'))
+  for (const path of files) {
+    const source = read(path)
+    for (const match of source.matchAll(/\bt\('([^']+)'\)/g)) assert.ok(englishKeys.includes(match[1]), `${path} ${match[1]}`)
+    assert.ok(!source.includes('tx('), path)
   }
   for (const match of read('../src/data.ts').matchAll(/(?:title|description|category): '([^']+)'/g)) {
     if (!match[1].includes('.')) continue // structural fields like gallery categories are not message keys
@@ -42,7 +52,6 @@ test('all literal and data-driven translation keys exist', () => {
     assert.ok(englishKeys.includes(`faq.${index}.question`))
     assert.ok(englishKeys.includes(`faq.${index}.answer`))
   }
-  assert.ok(!read('../src/App.vue').includes('tx('), 'no two-language helper remains')
 })
 
 test('automatic detection matches Pi-Harness language families and Chinese scripts', () => {
